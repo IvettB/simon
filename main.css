@@ -28,6 +28,7 @@ body {
   }
   
   menu {
+    justify-content: space-between;
     flex: 1;
     display: flex;
     /*  overwrite Bootstrap so the menu does not wrap */
@@ -40,7 +41,7 @@ body {
   }
   
   menu .nav-item {
-    padding: 0 10em;
+    padding: 0 3em;
   }
   
   footer a {
